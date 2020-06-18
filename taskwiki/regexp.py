@@ -60,6 +60,8 @@ VIEWPORT = {
         r'\s*'                       # Any whitespace
         r'(\$(?P<sort>[A-Z]))?'      # Optional sort indicator
         r'\s*'                       # Any whitespace
+        r'(\*(?P<count>[0-9]+))?'    # Optional count indicator
+        r'\s*'                       # Any whitespace
         r'[=]+'                      # Header ending
     ),
     'markdown':
@@ -79,6 +81,8 @@ VIEWPORT = {
         r'(#(?P<source>[A-Z]))?'     # Optional source indicator
         r'\s*'                       # Any whitespace
         r'(\$(?P<sort>[A-Z]))?'      # Optional sort indicator
+        r'\s*'                       # Any whitespace
+        r'(\*(?P<count>[0-9]+))?'    # Optional count indicator
         r'\s*'                       # Any whitespace
         r'$'                         # End of line
     )

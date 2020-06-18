@@ -382,6 +382,17 @@ viewport definition:
 
 ~   == Differently ordered home tasks | project:Home $T ==
 
+------------------
+5.2.4 Limiting number of tasks displayed
+
+By default, taskwiki will present the full list of tasks that match the
+viewport definition.
+
+You can limit the number of tasks listed by using *[count] after the sorting
+identifier:
+
+~   == List only the 5 first tasks | project:Home *5 ==
+
 --------------------
 5.2.4 Default filter
 
